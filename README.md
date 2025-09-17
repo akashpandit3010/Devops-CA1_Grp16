@@ -12,3 +12,4 @@ This project addresses a common **"Base Currency Assumption"** bug in currency c
 **Problem:**  
 Many implementations assume that the API's **base currency** is the same as the user-selected "From" currency.  
 APIs return rates relative to a fixed base (e.g., USD or EUR). If `fromCurrency ≠ baseCurrency`, directly multiplying:
+<img width="1887" height="758" alt="image" src="https://github.com/user-attachments/assets/354e83cc-f2ea-44c3-9c2e-f57abd04296e" />
